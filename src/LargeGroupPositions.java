@@ -28,6 +28,7 @@ import java.util.List;
  */
 public class LargeGroupPositions {
 
+
     public List<List<Integer>>largeGroupPositions(String S){
         List<List<Integer>>result=new ArrayList<>();
         int start_ptr=0;
