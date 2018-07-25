@@ -1,4 +1,4 @@
-/*
+package LinkedList;/*
 *Given a linked list, determine if it has a cycle in it.
 *
 *Follow up:
@@ -6,6 +6,12 @@
 *
 *
 */
+
+import LinkedList.ListNode;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -19,7 +25,7 @@
  */
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
-         Set<ListNode>hashset=new HashSet<>();
+         Set<ListNode> hashset=new HashSet<>();
          ListNode current=head;
          while(current!=null){
              if(hashset.contains(current)){
