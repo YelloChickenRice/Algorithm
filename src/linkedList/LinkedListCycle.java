@@ -1,4 +1,4 @@
-package LinkedList;/*
+package linkedList;/*
 *Given a linked list, determine if it has a cycle in it.
 *
 *Follow up:
@@ -6,8 +6,6 @@ package LinkedList;/*
 *
 *
 */
-
-import LinkedList.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;
